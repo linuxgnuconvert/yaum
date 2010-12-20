@@ -10,9 +10,12 @@ TARGET = yaum
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-        mainwindow.cpp
+SOURCES += main.cpp
+SOURCES += mainwindow.cpp
+SOURCES += views/basegraphicsview.cpp
 
 HEADERS  += mainwindow.h
+HEADERS  += views/basegraphicsview.h
+HEADERS  += layouts/layoutinterface.h
 
 FORMS    += mainwindow.ui
